@@ -22,11 +22,12 @@ img {
  /* Header area */
 
 .header {
-  height: 5rem;
+  height: 4rem;
   max-width: 100%;
   display: flex;
   justify-content: space-between;
   margin: 0 1rem;
+
 
 }
 
@@ -76,11 +77,13 @@ nav a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
   height: 900px;
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
+
 
 
 }
@@ -90,4 +93,91 @@ nav a:hover {
   padding: 1rem 0;
   color: #A42A29;
   background-color: #FFFFFF;
+}
+
+.jumbo h3 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  background-color: #FFFFFF;
+}
+
+/* Offerins section */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-image: url(../images/shanghai2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 900px;
+
+}
+
+.main h2 {
+  font-size: 3rem;
+  padding: 1rem 0;
+  color: #A42A29;
+  background-color: #FFF;
+  width: 100%;
+  margin-bottom: 2rem;
+
+}
+
+.offering {
+  display: flex;
+  width: 80%;
+  background-color: #FFF;
+  margin: 2rem 0;
+  height: 5rem;
+
+
+}
+
+/* Testimonials section */
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-image: url(../images/watertowns1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 900px;
+
+}
+
+.testimonials h2 {
+  font-size: 3rem;
+  padding: 1rem 0;
+  color: #A42A29;
+  background-color: #FFF;
+  width: 100%;
+  margin-bottom: 2rem;
+
+}
+
+.speach {
+  display: flex;
+  justify-content: space-around;
+}
+
+.speachbox {
+  width: 30%;
+}
+
+
+
+/* Footer section */
+
+.footer {
+  text-align: center;
 }
