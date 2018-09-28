@@ -96,26 +96,36 @@ nav a:hover {
   flex-direction: column;
   text-align: center;
   justify-content: center;
+}
 
-
-
+#destinations {
+  align-items: center;
 }
 
 .jumbo-text {
   opacity: .9;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+}
+
+.jumbo-writing {
+  opacity: 2;
+  width: 80%;
 }
 
 .jumbo h1 {
   font-size: 5rem;
   padding: 1rem 0;
   color: #A42A29;
-  background-color: #FFFFFF;
 }
+
+
 
 .jumbo h3 {
   font-size: 2rem;
   padding-bottom: 1rem;
-  background-color: #FFFFFF;
+
 }
 
 /* Offerins section */
@@ -179,6 +189,13 @@ nav a:hover {
 
 .offering .texting {
   width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.offering .texting h4 {
+  padding: 1rem 0rem;
 }
 
 /* Testimonials section */
@@ -204,14 +221,15 @@ nav a:hover {
   color: #A42A29;
   background-color: #FFF;
   width: 100%;
-  margin-bottom: 2rem;
+  margin-bottom: 7rem;
   opacity: .9;
 
 }
 
+
 .speach {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
 }
 
 .speachbox {
@@ -241,7 +259,6 @@ nav a:hover {
   color: black;
   background-color: #FFF;
   opacity: .9;
-  border-radius: 30px;
   height: 10rem;
 }
 
